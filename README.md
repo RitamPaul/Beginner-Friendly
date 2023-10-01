@@ -1,1 +1,1 @@
-# 👆 _`Click here`_ to see details
+# 👆 [_`Click here`_](https://github.com/RitamPaul/Beginner-Friendly/blob/main/CONTRIBUTING.md) to see details
