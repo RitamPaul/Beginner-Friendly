@@ -24,14 +24,15 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 + Your pull request should contain a brief description of what is inside your file
 
 ## ⚙️Contribution Process
-1. Star and fork [this](https://github.com/RitamPaul/Beginner-Friendly) repository
-2. Create a repository name of the actual one to be displayed in your repository list. Write a description if you want and click on "Create Fork"
-3. Navigate to respective folder to create your own folder with your files inside
-4. On clicking "Add File", press "Upload Files" to directly upload file from your local computer
-5. Select or drag and drop your particular folder from your local environment. Add a suitable title and description for your convention and then click on "Commit changes"
-6. Then inside "Contribute", press "Open pull request" to initiate a pull request to the author
-7. **Mandatory step :-** If there is any conflict, solve them. Add a brief title and description of your content and finally click on "Create pull request" to sent it to the author
-8. Now just calm and wait for your beautifull contribution to get merged
++ Star and fork [this](https://github.com/RitamPaul/Beginner-Friendly) repository
+![alt text](https://github.com/Dark-Base/Cinema/blob/main/fork.png "hello")
+3. Create a repository name of the actual one to be displayed in your repository list. Write a description if you want and click on "Create Fork"
+4. Navigate to respective folder to create your own folder with your files inside
+5. On clicking "Add File", press "Upload Files" to directly upload file from your local computer
+6. Select or drag and drop your particular folder from your local environment. Add a suitable title and description for your convention and then click on "Commit changes"
+7. Then inside "Contribute", press "Open pull request" to initiate a pull request to the author
+8. **Mandatory step :-** If there is any conflict, solve them. Add a brief title and description of your content and finally click on "Create pull request" to sent it to the author
+9. Now just calm and wait for your beautifull contribution to get merged
 
 ## 🫂Ethics
 1. Always maintain friendly behaviour with everyone
