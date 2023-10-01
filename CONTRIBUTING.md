@@ -27,14 +27,16 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 + Your pull request should contain a brief description of what is inside your file
 
 ## ⚙️Contribution Process
-1. Star and fork [this](https://github.com/RitamPaul/Beginner-Friendly) repository
-3. Create a repository name of the actual one to be displayed in your repository list. Write a description if you want and click on "Create Fork"
-4. Navigate to respective folder to create your own folder with your files inside
-5. On clicking "Add File", press "Upload Files" to directly upload file from your local computer
-6. Select or drag and drop your particular folder from your local environment. Add a suitable title and description for your convention and then click on "Commit changes"
-7. Then inside "Contribute", press "Open pull request" to initiate a pull request to the author
-8. **Mandatory step :-** If there is any conflict, solve them. Add a brief title and description of your content and finally click on "Create pull request" to sent it to the author
-9. Now just calm and wait for your beautifull contribution to get merged
+1. Star and fork [this](https://github.com/RitamPaul/Beginner-Friendly) repository.  [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/fork.png?raw=true)
+3. Create a repository name of the actual one to be displayed in your repository list. Write a description if you want and click on "Create Fork". [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/fork%20deatils%20within%20personal%20id.png?raw=true)
+4. Navigate to respective folder to create your own folder with your files inside. [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/direct%20to%20particular%20folder.png?raw=true)
+5. On clicking "Add file", press "Upload files" to directly upload file from your local computer. [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/directly%20upload%20using%20add%20file.png?raw=true)
+6. Select or drag and drop your particular folder from your local environment. Add a suitable title and description for your convention and then click on "Commit changes". [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/drag%20and%20drop%20and%20commit.png?raw=true)
+7. Then inside "Contribute", press "Open pull request" to initiate a pull request to the author. [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/open%20pull%20request.png?raw=true)
+8. **Mandatory step :-** If there is any conflict showing other than "Able to merge", solve them. Add a brief title and description of your content and finally click on "Create pull request" to sent it to the author. [`Click for demo`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/img/title%20description%20for%20pull%20request.png?raw=true)
+9. Now just calm and wait for your beautifull contribution to get merged.
+
+**Those who don't know the use of git bash / ssh / github desktop, do follow the above steps or some tutorial videos**
 
 ## 🫂Ethics
 ✅ Always maintain friendly behaviour with everyone <br>
