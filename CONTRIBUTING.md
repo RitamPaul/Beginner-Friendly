@@ -1,6 +1,8 @@
 # 🌸Welcome here
 If you want to contribute to open source or for Hacktoberfest, you've come at right place. This repository is solely made not only for intermediate or advanced but also for beginners. People ranging interests in various fields are always welcome here to contribute. Maintain your open sourcing profile by frequently contributing in this repository any time.
 
+### 👑Feature yourself by contributing in this repository. [`Click here`](#contributors) to see who else contributes
+
 ## 💡Hacktoberfest-2023
 1. Official website to register :- https://hacktoberfest.com/
 2. Values :- https://hacktoberfest.com/participation/#values
@@ -8,6 +10,7 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 4. Beginner Resources :- https://hacktoberfest.com/participation/#beginner-resources
 5. PR/MR Details :- https://hacktoberfest.com/participation/#pr-mr-details
 6. Non Code content :- https://hacktoberfest.com/participation/#low-or-non-code
+7. FAQs :- https://hacktoberfest.com/participation/#faq
 
 ## ℹ️Folder structure
 **1. Any code files should be created inside the ["CODE"](https://github.com/RitamPaul/Beginner-Friendly/tree/main/CODE) folder**
@@ -24,8 +27,7 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 + Your pull request should contain a brief description of what is inside your file
 
 ## ⚙️Contribution Process
-+ Star and fork [this](https://github.com/RitamPaul/Beginner-Friendly) repository
-![alt text](https://github.com/Dark-Base/Cinema/blob/main/fork.png "hello")
+1. Star and fork [this](https://github.com/RitamPaul/Beginner-Friendly) repository
 3. Create a repository name of the actual one to be displayed in your repository list. Write a description if you want and click on "Create Fork"
 4. Navigate to respective folder to create your own folder with your files inside
 5. On clicking "Add File", press "Upload Files" to directly upload file from your local computer
@@ -39,3 +41,8 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 2. Don't write bizarre contents in anyone's comment/reply
 3. if any content seem to be already present, then his/her pull requests will be labeled as spam or invalid and will not be merged
 4. Don't become hoppers to get merged your pull requests
+
+## Contributors
+<a href="https://github.com/RitamPaul/Beginner-Friendly/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RitamPaul/Beginner-Friendly" />
+</a>
