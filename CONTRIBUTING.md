@@ -37,10 +37,10 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 9. Now just calm and wait for your beautifull contribution to get merged
 
 ## 🫂Ethics
-1. Always maintain friendly behaviour with everyone
-2. Don't write bizarre contents in anyone's comment/reply
-3. if any content seem to be already present, then his/her pull requests will be labeled as spam or invalid and will not be merged
-4. Don't become hoppers to get merged your pull requests
+- [x] Always maintain friendly behaviour with everyone
+- [x] Don't write bizarre contents in anyone's comment/reply
+- [x] if any content seem to be already present, then his/her pull requests will be labeled as spam or invalid and will not be merged
+- [x] Don't become hoppers to get merged your pull requests
 
 ## Contributors
 <a href="https://github.com/RitamPaul/Beginner-Friendly/graphs/contributors">
