@@ -1,7 +1,7 @@
 # 🌸Welcome here
 If you want to contribute to open source or for Hacktoberfest, you've come at right place. This repository is solely made not only for intermediate or advanced but also for beginners. People ranging interests in various fields are always welcome here to contribute. Maintain your open sourcing profile by frequently contributing in this repository any time.
 
-### 👑Feature yourself by contributing in this repository. [`Click here`](#contributors) to see who else contributes
+### 👑Feature yourself by contributing in this repository. [`Click here`](https://github.com/RitamPaul/Beginner-Friendly/blob/main/CONTRIBUTING.md#contributors) to see who else contributes
 
 ## 💡Hacktoberfest-2023
 1. Official website to register :- https://hacktoberfest.com/
