@@ -1,6 +1,23 @@
+import doctest
 import numpy as np
 
 def create_complex_matrix(rows, cols):
+    """
+    Create a complex matrix with the given number of rows and columns.
+
+    >>> create_complex_matrix(2, 2)
+    Enter the real part of element (1,1): 1
+    Enter the imaginary part of element (1,1): 2
+    Enter the real part of element (1,2): 3
+    Enter the imaginary part of element (1,2): 4
+    Enter the real part of element (2,1): 5
+    Enter the imaginary part of element (2,1): 6
+    Enter the real part of element (2,2): 7
+    Enter the imaginary part of element (2,2): 8
+    array([[1.+2.j, 3.+4.j],
+           [5.+6.j, 7.+8.j]])
+
+    """
     matrix = np.zeros((rows, cols), dtype=np.complex_)
     for i in range(rows):
         for j in range(cols):
@@ -10,6 +27,15 @@ def create_complex_matrix(rows, cols):
     return matrix
 
 def print_complex_matrix(matrix):
+    """
+    Print a complex matrix.
+
+    >>> print_complex_matrix(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]))
+    Matrix:
+    (1+2j)  (3-4j)
+    (5+6j)  (7-8j)
+
+    """
     print("Matrix:")
     for row in matrix:
         for element in row:
@@ -17,6 +43,18 @@ def print_complex_matrix(matrix):
         print()
 
 def add_complex_matrices(matrix1, matrix2):
+    """
+    Add two complex matrices of the same dimensions.
+
+    >>> add_complex_matrices(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]), np.array([[9-10j, 11+12j], [13-14j, 15+16j]]))
+    array([[10.-8.j, 14.+8.j],
+           [18.-8.j, 22.+8.j]])
+
+    >>> add_complex_matrices(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]), np.array([[9-10j, 11+12j], [13-14j, 15+16j], [17+18j, 19-20j]]))
+    Error: Matrices must have the same dimensions to be added.
+    None
+
+    """
     if matrix1.shape != matrix2.shape:
         print("Error: Matrices must have the same dimensions to be added.")
         return None
@@ -27,6 +65,18 @@ def add_complex_matrices(matrix1, matrix2):
     return result
 
 def subtract_complex_matrices(matrix1, matrix2):
+    """
+    Subtract two complex matrices of the same dimensions.
+
+    >>> subtract_complex_matrices(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]), np.array([[9-10j, 11+12j], [13-14j, 15+16j]]))
+    array([[-8.+12.j, -8.-16.j],
+           [-8.-8.j,  -8.-24.j]])
+
+    >>> subtract_complex_matrices(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]), np.array([[9-10j, 11+12j], [13-14j, 15+16j], [17+18j, 19-20j]]))
+    Error: Matrices must have the same dimensions to be subtracted.
+    None
+
+    """
     if matrix1.shape != matrix2.shape:
         print("Error: Matrices must have the same dimensions to be subtracted.")
         return None
@@ -37,6 +87,18 @@ def subtract_complex_matrices(matrix1, matrix2):
     return result
 
 def multiply_complex_matrices(matrix1, matrix2):
+    """
+    Multiply two complex matrices.
+
+    >>> multiply_complex_matrices(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]), np.array([[9-10j, 11+12j], [13-14j, 15+16j]]))
+    array([[-23.+20.j,  17.+56.j],
+           [-67.+52.j,  37.+120.j]])
+
+    >>> multiply_complex_matrices(np.array([[1+2j, 3-4j], [5+6j, 7-8j]]), np.array([[9-10j, 11+12j], [13-14j, 15+16j], [17+18j, 19-20j]]))
+    Error: Number of columns in first matrix must match number of rows in second matrix.
+    None
+
+    """
     if matrix1.shape[1] != matrix2.shape[0]:
         print("Error: Number of columns in first matrix must match number of rows in second matrix.")
         return None
@@ -152,3 +214,6 @@ elif choice == 11:
         print_complex_matrix(eigenvectors)
 else:
     print("Invalid choice.")
+
+if __name__ == "__main__":
+    doctest.testmod()
