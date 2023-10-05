@@ -1,0 +1,4 @@
+You're environment should contain this following packages installed:-
+
+1. tk (for using tkinter)
+2. pillow (for using PIL)
