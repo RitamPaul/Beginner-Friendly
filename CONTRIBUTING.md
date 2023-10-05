@@ -23,6 +23,8 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 
 **2. Any non-code file i.e., articles, blogs, technical content, or any other should be created within ["NON CODE"](https://github.com/RitamPaul/Beginner-Friendly/tree/main/NON%20CODE) folder**
 
+**3. If anyone wants to contribute something creative, simply just create a folder within ["CODE"](https://github.com/RitamPaul/Beginner-Friendly/tree/main/CODE) or ["NON CODE"](https://github.com/RitamPaul/Beginner-Friendly/tree/main/NON%20CODE) and put your files inside**
+
 ## 📝Criterias
 
 **Don't get confused with the folder names. The parent folders are very specificly created in [this](https://github.com/RitamPaul/Beginner-Friendly) repository to hold your content inside**
