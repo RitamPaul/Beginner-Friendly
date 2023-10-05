@@ -1,0 +1,4 @@
+Library used:
+
+1. pygame
+2. random
