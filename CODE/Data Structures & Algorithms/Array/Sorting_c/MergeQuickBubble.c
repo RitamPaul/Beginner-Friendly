@@ -119,6 +119,7 @@ void main(){
 		scanf("%d", &arr[i]);
 	}
 
+    //For Merge sort
 	merge_sort(arr, 0, k);
 	printf("Sorted list is:\n");
 	for (int i = 0; i < r; i++)
