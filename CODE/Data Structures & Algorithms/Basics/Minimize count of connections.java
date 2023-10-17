@@ -1,4 +1,23 @@
-// Java program for the above approach
+/*
+QUESTION:- Minimize count of connections required to be rearranged to make all the computers connected
+
+DESCRIPTION:-
+
+Given an integer N, denoting the number of computers connected by cables forming a network and a 2D array connections[][], with each row (i, j) representing a connection between ith and jth computer,
+the task is to connect all the computers either directly or indirectly by removing any of the given connections and connecting two disconnected computers.
+If it’s not possible to connect all the computers, print -1.
+Otherwise, print the minimum number of such operations required.
+
+EXAMPLES:-
+
+Input: N = 4, connections[][] = {{0, 1}, {0, 2}, {1, 2}}
+Output: 1
+Explanation: Remove the connection between computers 1 and 2 and connect the computers 1 and 3.
+
+Input: N = 5, connections[][] = {{0, 1}, {0, 2}, {3, 4}, {2, 3}}
+Output: 0
+*/
+
 import java.io.*;
 import java.util.*;
 
@@ -126,5 +145,3 @@ class GFG {
 		makeConnected(N, connections, M);
 	}
 }
-
-// This code is contributed by kingash.
