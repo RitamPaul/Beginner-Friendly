@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Inconsolata:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #342c2c, #2b2527, #221f20, #191819, #111111);
+  transition: all 0.2s linear;
+  cursor: none;
+}
+
+.imgBack {
+  position: absolute;
+  width: 200vh;
+}
+
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 3px solid white;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 2px -3px 41px -1px rgba(250, 250, 250, 0.64);
+  transition: all 0.1s linear;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 13vh;
+  letter-spacing: 6px;
+  position: relative;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1.5px #ffffff;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: all 0.4s linear;
+  opacity: 0.3;
+  user-select: none;
+}
+.title:hover {
+  opacity: 1;
+  -webkit-text-fill-color: white;
+}
+.title:hover ~ .cursor {
+  transform: scale(1.4);
+  mix-blend-mode: difference;
+  background: white;
+}
+
+/*# sourceMappingURL=style.css.map */
