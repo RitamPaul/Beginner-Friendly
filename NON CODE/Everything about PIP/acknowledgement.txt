@@ -1,0 +1,3 @@
+This file is taken from readthedocs.org
+This file contains detailed use with explanation about PIP version 9.0.3.
+All inside content is meant for fair use only and all credits solely goes to its actual author. Nothing in here to promote disrespect / discourage.
