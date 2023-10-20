@@ -1,3 +1,4 @@
+// Code for Unique Minimum Product Subarray from a given array containing -ve as well as +ve integers
 public class UniqueMinimumProductSubarray {
 
     public static void main(String[] args) {
