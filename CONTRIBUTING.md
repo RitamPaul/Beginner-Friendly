@@ -55,7 +55,7 @@ If you want to contribute to open source or for Hacktoberfest, you've come at ri
 ✅ if any content seem to be already present, then his/her pull requests will be labeled as spam or invalid and will not be merged <br>
 ✅ Don't become hoppers to get merged your pull requests <br>
 
-## Contributors
+## 🤝Our contributors
 
 <a href="https://github.com/RitamPaul/Beginner-Friendly/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=RitamPaul/Beginner-Friendly" />
