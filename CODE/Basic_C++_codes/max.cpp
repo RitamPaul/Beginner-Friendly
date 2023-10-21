@@ -1,3 +1,4 @@
+// Calculating maximum value in a non-empty array using Recursion
 #include <iostream>
 using namespace std; 
 int maximum(int a[], int n)
@@ -15,7 +16,7 @@ int maximum(int a[], int n)
 int main()
 {
     int a[] = {1, 4, 35, 6, -20, 5, 2};
-    int n = 5;
+    int n = sizeof(a) / sizeof(a[0]) - 1;
     cout<<maximum(a, n)<<endl;
     return 0;
 }
