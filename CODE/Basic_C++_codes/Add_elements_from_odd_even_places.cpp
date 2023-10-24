@@ -1,3 +1,4 @@
+// The program calculates sum of 2nd largest even and odd number in an array when there is at least 2 even and odd numbers present.
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -58,8 +59,8 @@ int main()
 
 3.It then sorts both even and odd vectors in ascending order.
 
-4.Finally, it calculates the sum of the second largest even and odd numbers, which are 4 (second largest even) and 5 (second largest odd), resulting in a sum of 9.
+4.Finally, it calculates the sum of the second largest even and odd numbers, which are 2 (second largest even) and 5 (second largest odd), resulting in a sum of 7.
 
-5.The sum, 9, is then printed to the console.
+5.The sum, 7, is then printed to the console.
 
 */
